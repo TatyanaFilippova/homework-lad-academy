@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { UsersProps } from "../components/userCard/UserCard.tsx";
+import type { UsersProps } from "../components/userCardList/UserCardList.tsx";
 
 const withData = (Component: React.ComponentType<UsersProps>) => {
   const users = [

@@ -7,7 +7,7 @@ export interface UsersProps {
   }[];
 }
 
-const UserCard = ({ users }: UsersProps) => {
+const UserCardList = ({ users }: UsersProps) => {
   return (
     <>
       {users.map((user) => (
@@ -21,4 +21,4 @@ const UserCard = ({ users }: UsersProps) => {
   );
 };
 
-export default UserCard;
+export default UserCardList;
