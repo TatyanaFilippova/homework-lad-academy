@@ -1,5 +1,13 @@
 import * as React from "react";
-import type { UsersProps } from "../components/userCardList/UserCardList.tsx";
+
+export interface UsersProps {
+  users: {
+    id: string;
+    name: string;
+    email: string;
+    age: number;
+  }[];
+}
 
 const withData = (Component: React.ComponentType<UsersProps>) => {
   const users = [
