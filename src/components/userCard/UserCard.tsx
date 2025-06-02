@@ -1,4 +1,4 @@
-interface UsersProps {
+export interface UsersProps {
   users: {
     id: string;
     name: string;
